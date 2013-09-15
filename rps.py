@@ -1,3 +1,5 @@
+# KidsCanCode - Intro to Programming
+# Rock/Paper/Scissors game
 import random
 
 choices = ['r', 'p', 's']
@@ -11,7 +13,7 @@ while True:
     player_move = input("Your move? ")
     if player_move == 'q':
         break
-    
+
     computer_move = random.choice(choices)
 
     print("You:", player_move)
